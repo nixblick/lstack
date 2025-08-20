@@ -1,4 +1,0 @@
-# aus Projektwurzel
-chmod +x packaging/make-appimage.sh
-BUILD_TYPE=Release ICON_FILE=resources/icons/lstack-client.png ./packaging/make-appimage.sh
-# Ergebnis: dist/lstack-client-<version>-<arch>.AppImage
