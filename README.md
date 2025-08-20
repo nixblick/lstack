@@ -33,7 +33,10 @@ Die Architektur ist so aufgebaut, dass alle Komponenten klein und unabhängig in
 - **Backup & Monitoring Pflicht**:  
   - Automatisierte Backups über eigene Rolle  
   - Statistik-Webserver (nginx + Flask) liefert Health-/Statistikinfos  
-
+- **Jedes YML file mit Pfad und Versionierung**
+  - Beispiel: 
+  - # role/client/tasks/main.yml
+  - # Version: 1.0.1
 ---
 
 ## Ziel des PoC
