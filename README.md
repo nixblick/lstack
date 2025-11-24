@@ -18,8 +18,8 @@ Die Architektur ist so aufgebaut, dass alle Komponenten klein und unabhängig in
   - `/var/lib/lstack/<rolle>` → Daten, Cache  
   - `/var/log/lstack/<rolle>` → Logs  
 - **System-Account**:  
-  - Benutzer: `svc_lst`  
-  - Gruppe: `grp_lst`  
+  - Benutzer: `lstuser`  
+  - Gruppe: `lstack`  
   - UID/GID < 1000 (kompatibel für Elastic Agent-Auswertung)  
 - **Secrets im Vault**:  
   - DB-Passwörter, API-Keys, TLS, LDAP-Bind-Konto  
